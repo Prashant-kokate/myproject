@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(./color-g40912a23a_1920.png);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #main {
+            height: 600px;
+            width: 830px;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            margin-top: 80px;
+            display: flex;
+            /* position: absolute; */
+            align-content: center;
+            background-color: white;
+        }
+
+        #block1 {
+            height: 600px;
+            width: 320px;
+            /* border: 1px solid; */
+            background-color: #2874f0;
+            padding-top: 50px;
+            padding-left: 30px;
+            font-family: sans-serif;
+        }
+        #sp2 {
+            font-size: 18px;
+            margin-top: 20px;
+            line-height: 150%;
+            color: #e3e1e1;
+        }
+
+        #sp1 {
+            font-size: 28px;
+            font-weight: 500;
+            color: #e3e1e1;
+        }
+
+        #para {
+            margin-top: 20px;
+        }
+
+        #info {
+            height: 500px;
+            width: 410px;
+            border: none;
+            margin-top: 30px;
+        }
+
+        #block2 {
+            height: 600px;
+            width: 420px;
+            /* border: 1px solid wheat; */
+            display: flex;
+            margin-left: 50px;
+            color: #ababab;
+            font-family:sans-serif;
+            background-color: white;
+            padding-top: 50px;
+        }
+
+        .det {
+            text-decoration: none;
+            border: none;
+            font-size: 14px;
+            color: #2874f0;
+            /* color: #ababab; */
+        }
+        .btn {
+            position: absolute;
+            /* margin-left: 150px; */
+            height: 50px;
+            width: 410px;
+            border: none;
+            /* border: 1px solid; */
+            background-color: #fb641b;
+            color: white;
+            font-size: 16px;
+            box-shadow: 1px 1px 1px 0px #fb641b;
+            text-decoration: none;
+        }
+
+        #btn2 {
+            background-color: white;
+            color: #2874f0;
+            border: none;
+
+            box-shadow: 0px 2px 4px grey;
+            font-size: 16px;
+        }
+
+        hr{
+            margin-top: 5px;
+            background-color: #ababab;
+
+        }
+
+        #forgot {
+            margin-left: 350px;
+            font-size: 18px;
+        }
+
+        #para {
+            width: 160px;
+
+        }
+
+        #logo {
+            height: 150px;
+            width: 260px;
+            margin-left: 10px;
+            /* border: 1px solid white; */
+            margin-top: 220px;
+            background-image: url(./login_img_c4a81e.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="block1">
+            <span id="sp1">Login</span>
+            <div id="para">
+                <p><span id="sp2">Get access to your Orders, Wishlist and Recommendations</span></p>
+            </div>
+            <div id="logo"></div>
+        </div>
+        <div id="block2">
+            <div id="info">
+                <form action="">
+                    <input style="color: #ababab ;" class="det" type="email" name="" id=""
+                        placeholder="Enter Email/Mobile number">
+                    <hr><br><br>
+                    <input class="det" type="password" name="n" id="" placeholder="Enter Password"><a id="forgot" href="#"
+                        class="det">Forgot?</a><hr><br><br>
+                    
+                    <p><span style="font-size: 16px;">By continuing, you agree to flipkart's <a style="font-size: 16px;"class="det" href="#">Terms of Use</a> and <a style="font-size: 16px;"
+                                class="det" href="#">Privacy Policy</a><br><br>
+                            <input class="btn" type="button" value="Login"><br><br><br>
+                            <center><span>OR</span></center><br>
+                            <input class="btn" id="btn2" type="button"
+                                value="Request OTP"><br><br><br><br><br><br><br><br><br>
+                            <center><a  style="font-size: 18px;"class="det" href="#">New to Flipkart? Create an account</a></center>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
